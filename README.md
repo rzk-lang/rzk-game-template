@@ -10,10 +10,10 @@ The pin lives in `deploy.yml` as the `engine-version` input. It is set to a rele
 
 ## What's inside
 
-Two sections cover the full authoring surface:
+Two chapters cover the full authoring surface — the first untitled (its sections render at the top level), the second titled "More moves":
 
-- **Getting started** — a bridge-in and an outcomes page, an identity puzzle carrying hints (one plain, one contextual), a self-check pre-test with remedies, a follow-on puzzle gated behind the pre-test, and a summary.
-- **More moves** — a mid-section note, a gated puzzle with an inventory and a multi-block prelude, an optional ★ bonus, and a closing summary.
+- **Getting started** — a `how-holes-work` page (which lights up the header's ❓ link), a bridge-in and an outcomes page, an identity puzzle carrying hints (one plain, one contextual), a self-check pre-test with remedies, a follow-on puzzle gated behind the pre-test, and a summary.
+- **Gating and a bonus** — a mid-section note, a single gated puzzle that exercises the whole gate (a structured inventory with a `type` override, a `forbidden` built-in `idJ`, an ungranted shortcut, and a multi-block prelude), an optional ★ bonus, and a closing summary.
 
 See the engine's [authoring guide](https://github.com/rzk-lang/rzk-game/blob/main/docs/authoring.md) for the file shapes, the schema, and the how-tos.
 
