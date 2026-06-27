@@ -1,8 +1,5 @@
 ---
 id: bonus
-inventory:
-- 'x        : A'
-- 'λ-intro  : introduce the cube coordinates'
 statement: hom2 A x x x (id-hom A x) (id-hom A x) (id-hom A x)
 title: A constant triangle (bonus)
 ---

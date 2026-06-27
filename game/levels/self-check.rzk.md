@@ -1,8 +1,5 @@
 ---
 id: self-check
-inventory:
-- 'x        : A'
-- 'λ-intro  : introduce the interval coordinate'
 statement: hom A x x
 title: Self-check
 ---
