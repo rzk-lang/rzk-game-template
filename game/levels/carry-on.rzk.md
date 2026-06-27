@@ -1,8 +1,8 @@
 ---
 id: carry-on
 inventory:
-- 'x        : A'
-- 'id-hom   : (A : U) → (x : A) → hom A x x'
+- name: id-hom
+  synopsis: the identity morphism at a point
 statement: hom A x x
 title: Carry on
 ---

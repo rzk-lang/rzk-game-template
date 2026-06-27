@@ -4,9 +4,6 @@ hints:
 - text: 'The goal is still the whole path type `(t : 2 | Δ¹ t) → …`. Your first move is to introduce the interval coordinate: tap `λ-intro` or type `\ t → ?`. Then return $x$.'
   when-goal: 'Δ¹ t'
 id: identity
-inventory:
-- 'x        : A'
-- 'λ-intro  : introduce the interval coordinate'
 statement: hom A x x
 title: The identity morphism
 ---
