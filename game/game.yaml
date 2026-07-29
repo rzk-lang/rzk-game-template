@@ -37,6 +37,17 @@ chapters:
         - self-check
     - prose:
         file: levels/recap.md
+- title: Computing with data
+  sections:
+  - id: data
+    title: Data and behaviour
+    items:
+    - prose:
+        file: levels/data-and-checks.md
+    - puzzle:
+        file: levels/negation.rzk.md
+    - puzzle:
+        file: levels/conjunction.rzk.md
 - title: More moves
   sections:
   - id: more-moves
