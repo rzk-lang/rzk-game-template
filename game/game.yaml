@@ -1,9 +1,15 @@
+id: rzk-game-template
 title: Rzk Game Template
 
 # A small but complete game over the hom A x x substrate. It covers every item
 # type, prose role, and puzzle feature, so a forking author can read one of each
 # and copy it. The mathematics is deliberately trivial; the point is the
 # authoring surface. See docs/authoring.md in the engine repo.
+#
+# The game's id namespaces the player's saved progress. Games published to
+# GitHub Pages share one origin, so without distinct ids two of them share one
+# set of keys and overwrite each other's progress. A game that sets no id falls
+# back to a slug of its title, which moves if the title changes. Set it.
 #
 # The table of contents is a list of chapters. A chapter has an optional title
 # and a list of sections; a section has an id, a title, and ordered items. An
